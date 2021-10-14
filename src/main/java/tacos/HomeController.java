@@ -17,7 +17,7 @@ public class HomeController {
     }
 
     @GetMapping("/Index")
-    public String index(@RequestParam(name="http_name",required=true) String name, Model model){
+    public String index(){
         return "index";
     }
 }
